@@ -1,0 +1,67 @@
+* {box-sizing: border-box;
+   padding: 0;
+   margin: 0;}
+
+html {scroll-behavior: smooth;}
+
+body {font-family: sans-serif;
+      /*background: #403535;*/
+      background: url(https://images5.alphacoders.com/607/thumb-1920-607878.jpg) no-repeat;
+      color: white;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;}
+
+/* ========== Menu ==========*/
+header {justify-content: flex-start;
+        position: fixed;
+        letter-spacing: 1px;
+        width: 100%;
+        padding: 1em 3em;
+        background: #294023;
+        box-shadow: 0 5px 20px 5px rgba(0, 0, 0, 0.3);
+}
+
+
+
+#logo {width: 50px;
+       transition: 0.3s;}
+#logo:hover {transform: scale(1.2);}
+
+nav {justify-content: space-between;
+     width: max-content;
+     display: inline-block;}
+
+nav a {text-decoration: none;
+       color: #fff;
+       padding: 1em 2em;
+       border: 1px solid transparent;
+       border-radius: 0.3em;
+       transition: 0.3s;}
+
+nav a:hover {
+    border: 1px solid #f05454;
+    text-decoration: none;
+}
+
+/* ========== Hero Section ==========*/
+
+.mainscreen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content {
+    
+    background: #403535;
+    height: 100vh;
+    max-width: 1800px;
+    min-width: ;
+    padding-top: 5%;
+}
+
+/* ========== Footer ==========*/
+footer {
+    background: #161a20; 
+    padding: 3em;
+    }
